@@ -1,6 +1,24 @@
 {
     "server": {
-      "port": "8300",
-      "host": "localhost"
+        "port": "8300",
+        "host": "localhost"
+    },
+    "services": {
+        "firebase": {
+            "serviceAccount": {
+                "type": "service_account",
+                "project_id": "modeapi-fccb5",
+                "private_key_id": "54367c77c5c645f531a922cc6b2c97afd453b1b9",
+                "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDauLmWbx9VncMn\nPYWZxw+UyUR3/XCIdKr4Mgz6LQQU730wOFDdXC1rd6ZXZPZZN0Kbqro1PJB35u2q\nPuQJBOdOI1r9Bu6wrOeiFITlJOytbTAYNHb3u8KAt68V+a+a4yNswX4hOWbb2t7b\nHQMpClm3gNLjnW2PKiTXKEg/lo1I8sCxuuHAPX8RjiZlT0GbFrt2FNiRpY1vdyMv\nrONR9lDqWXkMwhbjozpUZn5L1r6GEoZwnq6i3pG9B7NOrrXg7pbxO48MxYyfymU9\nSrG1NWHdjPXigfPOJLOU1eaUAqWruKde41w7QQ1I3qdVZfv1Af7KSRtecbBGNFjO\nPuXN9z7xAgMBAAECggEAIKcjTcoZK3b6A4mzwFlvgg7qId+8RSLlw1f1iAPgcB+w\n2NoPeHyia0DZnIJ+JKOTVhoO4pPAHaZkJN5uvMn2nju5Ab1fNREbI59cl7kDfICo\nhXSPrjxhtUW25dj41m7CgyH/6oXfTUNHsf6K0j2xVyvsT/7YtF7eUSC6aIPZY+JT\nKkBMic0g39o81i71zO2lFmJ+S6/vqRjQvJRqPaq8oUGpdn8EZbAuBCwyO0pV2hLW\nMbA6JiqWD9AgEZv4y4/IrIVI8ZD7XNsJgqfdJYxQhmfQ/AQIUEQYixhoR6Ypqj0v\nydZKCSRIje7Dsv+Wf730OmbhLNk5TnJLAdcRvDNB4QKBgQDuvyV6AUNYy/NpU3nl\n38d/KmMQpwpoMB0BMT74A7jN9RHWMzwW3qhMClB7PeLLC3B7VN8CYpsr3p/vgSe/\nbXApLhzf38aA411ZGOMOC0wI55igzPL4+/9/ymqADIPnOP82kkvrxk86nEjpG+k7\n+4QRb2yB/cYDl8xp/XLy6RjMvwKBgQDqhxxy/pE1oZ/ZUSiQYQB6W9K7MgfnrhIU\nCZkR+cDnvxw8RzH8jBT/wi20/bc3z88KXK39TOhxG/5FHjgx6R4HtcbV7iZE7/X8\ngOOQDiNhQy9gfyJwIz8jEO+acIKvyP6sRaEtEfrHhatCrcixwh1TfpMIo5c1lgfQ\n+9zPbuPwTwKBgBO1T8CsjgSsgWF2dJ+XQ36p3xem0mMbZamNiScsF3tY+an2/MTe\niIIOb+pch3Y/cX+c1/P4c9rBO+6neMKCpDmiBtwsOtS08CXEuimUoSgzBhRwFrab\nBtJjwTrkzZauy9KTbRT/f9bUw+gKV8yNzK8rxYdNjaUKSOOO+og22cc9AoGBALTa\nX/vlh0DeVBAXX7qGswGoUYb9e88TEunUxO9xs2qCm1l4ZXmk5ISdzvVlOaaWX8hT\n0/AjIJQozBmsxhTm+btkV+Kc9XHvwbdoBRQPcwUL9Drrjzj+VS/LXZmw7XZ0/r8G\nKtZAqSy3TWvr63n4gPjkAKqGzJIMEhb8QjjMAIZNAoGAQRKGcmcxyiQ/Z581EpvE\nG5E+VEi43qat3vUfUvGJfyEwIkKG9F9IHrAKXKXIK5VZko48frnR5QA2CrWxESBH\nPZmcoTzBkUXkshSWfLFUbZXXwYk8d5xxARVIgrQ9qyhVw9wXOt79xs5OWYt84kIX\nGRphGGM3zExr2yv67atAFoQ=\n-----END PRIVATE KEY-----\n",
+                "client_email": "firebase-adminsdk-vyqrc@modeapi-fccb5.iam.gserviceaccount.com",
+                "client_id": "110682518606214449700",
+                "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                "token_uri": "https://oauth2.googleapis.com/token",
+                "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-vyqrc%40modeapi-fccb5.iam.gserviceaccount.com"
+            },
+            "storageBucket": "modeapi-fccb5.appspot.com",
+            "databaseURL": "https://modeapi-fccb5-default-rtdb.europe-west1.firebasedatabase.app"
+        }
     }
 }

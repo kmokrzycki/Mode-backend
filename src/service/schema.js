@@ -37,7 +37,7 @@ const getSchema = (
   schema,
   rootDirectory = 'schema/v1',
 ) => {
-    console.log('We are looking for: ', `${rootDirectory}/${schema}.json`);
+    // console.log('We are looking for: ', `${rootDirectory}/${schema}.json`);
   const selector = `${rootDirectory}/${schema}.json`;
   return schemas[selector];
 };

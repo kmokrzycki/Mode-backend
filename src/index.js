@@ -6,6 +6,8 @@ const config = require('config');
 const compression = require('compression');
 const helmet = require('helmet');
 const { loadSchemas } = require('./service/schema');
+const db = require('./service/db');
+
 
 
 const app = express();
@@ -27,4 +29,5 @@ app.use(errorResponse);
 
 app.listen(port, () => {
   console.log(`✅ 😀 - API server is running at http://${host}:${port}`);
+  console.log('Using DB:', config.get('services.firebase.databaseURL'));
 });

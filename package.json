@@ -24,9 +24,11 @@
     "compression": "^1.7.4",
     "config": "^3.3.6",
     "express": "^4.17.1",
+    "firebase-admin": "^9.6.0",
     "helmet": "^4.4.1",
     "jest": "^26.6.3",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "short-unique-id": "^3.2.3"
   }
 }

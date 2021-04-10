@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ammount",
+    "beneficiary"
+  ],
+  "properties": {
+    "ammount": {
+      "type": "number",
+      "multipleOfPrecision": 0.01
+    },
+    "beneficiary": {
+      "type": "string"
+    }
+  }
+}

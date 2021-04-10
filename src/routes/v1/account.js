@@ -1,14 +1,31 @@
 const { Router } = require('express');
 const validateRequest =  require('../../middleware/schemaValidator');
-const { getAccount } = require('../../middleware');
+const actions = require('../../middleware/account');
 
-const account = Router();
+const route = Router();
 
-
-account.get(
-	'/:id',
-    validateRequest('account/get', 'params'),
-	getAccount
+route.get(
+	'/',
+	actions.getAllAccounts
 );
 
-module.exports = account;
+route.put(
+	'/',
+    validateRequest('account/add'),
+	actions.addAccount
+);
+
+route.post(
+    '/:id/transfer',
+    validateRequest('account/transfer'),
+    actions.transfer
+);
+
+route.get(
+	'/:id',
+    validateRequest('account/get', 'params'),
+	actions.getAccount
+);
+
+
+module.exports = route;

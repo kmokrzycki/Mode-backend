@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "name",
+      "balance"
+    ],
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "balance": {
+        "type": "number",
+        "multipleOfPrecision": 0.01
+      }
+    }
+  }
