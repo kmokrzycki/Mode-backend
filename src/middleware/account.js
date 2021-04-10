@@ -1,9 +1,9 @@
-// const db = require('../db');
+const account = require('../model/account');
 
 const getAccount = async (req, res, next) => {
+    console.log(account);
 	try {
-		// const jobs = await db.getJobs();
-		res.status(200).json({all: "good !"});
+		res.status(200).json({account: account.get()});
 	}
 	catch (e) {
 		next(e);
