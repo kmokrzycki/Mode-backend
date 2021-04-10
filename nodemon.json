@@ -1,0 +1,10 @@
+{
+    "verbose": false,
+    "watch": [
+        "src",
+        "config",
+        "schema",
+        "package.json"
+    ],
+    "exec": "node src/index.js"
+}

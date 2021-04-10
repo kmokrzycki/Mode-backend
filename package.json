@@ -1,0 +1,29 @@
+{
+  "name": "mode-banking-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js --config nodemon.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmokrzycki/Mode-backend.git"
+  },
+  "author": "SirK7979",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmokrzycki/Mode-backend/issues"
+  },
+  "homepage": "https://github.com/kmokrzycki/Mode-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
