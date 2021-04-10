@@ -5,9 +5,11 @@ const morgan = require('morgan');
 const config = require('config');
 const compression = require('compression');
 const helmet = require('helmet');
+const { loadSchemas } = require('./service/schema');
 
 
 const app = express();
+loadSchemas('schema');
 app.use(helmet());
 app.use(compression());
 

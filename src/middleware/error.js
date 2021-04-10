@@ -1,7 +1,7 @@
 const errorResponse = (err, req, res, next) => {
-	console.error(err.stack);
-	res.status(500).json({
-		statusCode: 500,
+    const status = err.status || 500;
+	res.status(status).json({
+		statusCode: status,
 		error: err.message,
 	})
 };
