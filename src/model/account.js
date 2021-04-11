@@ -17,6 +17,11 @@ const add = async (data) => {
     return newRecord;
 };
 
+const getHistory = async (id) => {
+    const result = await db.scan(`TRANSACTION/${id}`);
+    return result;
+}
+
 const transaction = async (id, body, record, newAmmount) => {
     const newRecord = await db.update(
         id,
@@ -39,4 +44,5 @@ module.exports = {
     getAll,
     add,
     transaction,
+    getHistory,
 }

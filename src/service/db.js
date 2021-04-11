@@ -35,7 +35,7 @@ const get = async (id, type) => {
 const scan = async type => {
     isRequired(type);
     const keys = [];
-    const scanRef = db.ref(`${type.toUpperCase()}`);
+    const scanRef = db.ref(`${type}`);
     await scanRef.once('value', snap => {
         snap.forEach(item => {
             const itemVal = item.val();

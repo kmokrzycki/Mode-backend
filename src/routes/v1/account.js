@@ -22,10 +22,15 @@ route.post(
 );
 
 route.get(
+    '/:id/history',
+    validateRequest('account/get', 'params'),
+    actions.getAccountHistory
+);
+
+route.get(
 	'/:id',
     validateRequest('account/get', 'params'),
 	actions.getAccount
 );
-
 
 module.exports = route;
