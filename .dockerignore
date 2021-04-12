@@ -1,0 +1,9 @@
+.git
+.dockerignore
+node_modules
+lib
+compiled
+coverage
+logs/*.log
+pids/*.pid
+coverage/*
